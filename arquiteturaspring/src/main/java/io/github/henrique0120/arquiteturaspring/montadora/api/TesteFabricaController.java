@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class TesteFabricaController {
 
     @Autowired
-    @Turbo
+    @Eletrico
     private Motor motor;
 
     @PostMapping
